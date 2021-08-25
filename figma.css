@@ -1,0 +1,426 @@
+body{
+    width: 100vw;
+    overflow-x: hidden;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    background: url("./img/Backgroundback.png") no-repeat ;
+    background-size: contain;
+}
+.combine{
+    display: flex;
+}
+.imgTodo{
+    display: flex;
+    margin-left: 170px;
+    margin-right: 120px;
+}
+.more {
+    display: flex;
+}
+.down{
+    /* transform: rotate(90deg) translateY(-5px); */
+    margin-left: 8px;
+}
+.toolsS{
+    display: flex;
+}
+/* .badge{
+    display: flex;
+
+} */
+ #playS , #appS{
+    width: 100%;
+    height: 100%;
+}
+.playS{
+    width: 150px;
+    height: 45px;
+    margin-left: 170px;
+}
+.appS{
+    width: 150px;
+    height: 45px;
+    margin-left: 15px;
+}
+.todo{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 8px;
+    font-weight: 600;
+}
+.header1{
+     margin-top: 15px;
+}
+.tools{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.heading{
+    margin-left: 165px;
+    margin-top: 195px;
+}
+.t1 , .t2{
+    font-size: 5rem;
+    font-weight: 800;
+}
+.t1{
+    margin-bottom: 15px;
+}
+.combine2{
+    display: flex;
+}
+.iphoneImg{
+    height: 100%;
+    width: 100%;
+}
+.iphone{
+    height: 700px;
+    width: 420px;
+    margin-left: 90px;
+    margin-top: 105px;
+}
+.btn1{
+    margin-top:35px;
+    width: 160px;
+    height: 50px;
+    border-radius: 10px;
+    background: #8C30F5;
+    color: #ffffff;
+}
+#gradient1
+{
+box-sizing: border-box;
+opacity: 0.2;
+height:3px;
+width:1200px;
+margin:auto;
+margin-top:50px;
+margin-bottom: 40px;
+background: -moz-radial-gradient(center, ellipse cover,  rgba(10,10,10,1) 0%, rgba(8,8,8,1) 19%, rgba(3,3,3,0) 80%, rgba(1,1,1,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(10,10,10,1)), color-stop(19%,rgba(8,8,8,1)), color-stop(80%,rgba(3,3,3,0)), color-stop(100%,rgba(1,1,1,0))); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(10,10,10,1) 0%,rgba(8,8,8,1) 19%,rgba(3,3,3,0) 80%,rgba(1,1,1,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  rgba(10,10,10,1) 0%,rgba(8,8,8,1) 19%,rgba(3,3,3,0) 80%,rgba(1,1,1,0) 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  rgba(10,10,10,1) 0%,rgba(8,8,8,1) 19%,rgba(3,3,3,0) 80%,rgba(1,1,1,0) 100%); /* IE10+ */
+background: radial-gradient(center, ellipse cover,  rgba(10,10,10,1) 0%,rgba(8,8,8,1) 19%,rgba(3,3,3,0) 80%,rgba(1,1,1,0) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a0a0a', endColorstr='#00010101',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+#gradient2
+{
+box-sizing: border-box;
+opacity: 0.2;
+height:3px;
+width:1200px;
+margin:auto;
+margin-top:45px;
+background: -moz-radial-gradient(center, ellipse cover,  rgba(10,10,10,1) 0%, rgba(8,8,8,1) 19%, rgba(3,3,3,0) 80%, rgba(1,1,1,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(10,10,10,1)), color-stop(19%,rgba(8,8,8,1)), color-stop(80%,rgba(3,3,3,0)), color-stop(100%,rgba(1,1,1,0))); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(10,10,10,1) 0%,rgba(8,8,8,1) 19%,rgba(3,3,3,0) 80%,rgba(1,1,1,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  rgba(10,10,10,1) 0%,rgba(8,8,8,1) 19%,rgba(3,3,3,0) 80%,rgba(1,1,1,0) 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  rgba(10,10,10,1) 0%,rgba(8,8,8,1) 19%,rgba(3,3,3,0) 80%,rgba(1,1,1,0) 100%); /* IE10+ */
+background: radial-gradient(center, ellipse cover,  rgba(10,10,10,1) 0%,rgba(8,8,8,1) 19%,rgba(3,3,3,0) 80%,rgba(1,1,1,0) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a0a0a', endColorstr='#00010101',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.combine3{
+    display: flex;
+    margin-top: 15px;
+}
+.Logos{
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.Airbnb1 , .Hubspot1 , .Google1 , .Microsoft1 , .Walmart1 , .FedEx1 , .vector2a , .vector2b{
+    width: 100%;
+    height: 100%;
+}
+.Airbnb , .Hubspot , .Google , .FedEx{
+    width: 85px;
+    height: 25px;
+}
+.Microsoft , .Walmart {
+    width: 110px;
+    height: 25px;
+}
+.vector2 , .vector{
+    width: 30px;
+    height: 18px;
+}
+.vector2{
+    margin-left: 160px;
+}
+.vector{
+    margin-right: 160px;
+}
+.heading2{
+    margin-top: 70px;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+.para{
+    margin-top: 20px;
+}
+.tx1 , .tx2{
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+.tx2{
+    margin-top: 10px;
+}
+.row1{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.rowchange{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.row2{
+    width: 66%;
+    margin-top: 20px;
+    margin-left: 240px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.tx3{
+    font-size: 1.8rem;
+}
+.row3{
+    width: 74%;
+    margin-top: 15px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.tx4{
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+.row4{
+    width: 76%;
+    margin-top: 8px;
+    margin-left: 185px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.green{
+    background-color: #D5FAFC;
+    width: 100%;
+    height: 900px;
+    margin-top: 75px;
+    background: left 13% top 10% url("./img/quotes.png") no-repeat #D5FAFC ;
+}
+.heading3{
+    margin-left: 280px;
+    padding-top: 130px;
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+.realC{
+    margin-top: 10px;
+}
+#stories{
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin-top: 10px ;
+}
+/* .textimage{
+    display: flex;
+} */
+.sideimage{
+    margin-left: 390px;
+    margin-top: 30px;
+    /* height: 350px;  */
+     width: 390px;
+    padding-top: 120px;
+     /* padding-right: 50px; */
+    padding-bottom: 30px;  
+    background: left 13% top 10% url("./img/Hubspot\ Logo.png") no-repeat #ffffff ;
+    background-color: #ffffff;
+    border-radius: 2%;
+}
+.sideimage2{
+    width: 440px;
+    margin-top: 190px; 
+    margin-left: 30px;
+    padding-top: 120px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    background: left 13% top 10% url("./img/Airbnb\ Logo.png") no-repeat #ffffff ;
+    border-radius: 2%;
+}
+.sideimage3{
+    width: 350px;
+    margin-top: 30px; 
+    margin-left: 30px;
+    padding-top: 90px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    background: left 13% top 10% url("./img/BookMyShow\ Logo.png") no-repeat #ffffff ;
+    border-radius: 2%;
+}
+.TextimageCombine{
+    display: flex;
+}
+.line{
+    margin: 5px;
+    font-weight: 300;
+    font-size: 1.3rem;
+    margin-left: 60px;
+}
+.line1{
+    margin-top: 30px;
+    font-weight: 800;
+}
+.line2{
+    font-size: 1rem;
+    font-weight: 100;
+}
+.achievements{
+    margin-top: 50px;
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin-left: 150px;
+}
+.p2{
+    margin-top: 15px;
+}
+.p3{
+    margin-top: 15px;
+    font-weight: 300;
+    font-size: 1.35rem;
+}
+.combine4 , .subdivision , .upperSub{
+    display: flex;
+}
+.total{
+    font-size: 1.9rem;
+    font-weight: 600;
+}
+.counts{
+    font-size: 1.15rem;
+    font-weight: 300;
+    margin-top: 7px;
+}
+.sideboxes{
+    margin-left: 200px;
+    margin-top: 55px;
+}
+.subimg{
+    margin-top: 15px;
+    margin-right: 20px;
+}
+.subdivision2{
+    margin-left: 85px;
+}
+#lowersubdivision2 , #lowersubdivision{
+    margin-top: 50px;
+}
+#lowersubdivision2{
+    margin-left: 165px;
+}
+.nextiphone{
+    margin-top: 150px;
+    display: flex;
+    margin-left: 150px;
+}
+.newiphone1{
+    width: 100%;
+    height: 100%;
+}
+.newiphone{
+    width: 580px;
+}
+.Headline{
+    font-size: 2.75rem;
+    font-weight: 600;
+}
+.sideElements{
+    margin-left: 100px;
+    margin-top: 135px;
+}
+.lorem{
+    margin-top: 40px;
+}
+.lorem1{
+    font-weight: 300;
+    margin: 5px;
+    font-size: 1.3rem;
+}
+.getstart{
+    margin-top: 40px;
+    font-size: 1.2rem;
+    color: #8C30F5;
+}
+.black{
+    background: #0B0D17;
+    height: 300px;
+    width: 100%;
+    margin-top: 70px;
+    color: #ffffff;
+    font-weight: 300;
+}
+.col{
+   padding-top: 50px;
+   margin-left:150px
+}
+.merge1{
+    display: flex;
+    margin-top: 30px;
+    font-size: 1.05rem;
+}
+.DownloadNow{
+    margin-right: 25px;
+}
+.about{
+    margin-top: 20px;
+    font-size: 1.05rem;
+    width: 480px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.rights{
+    margin-top: 40px;
+    font-size: 0.95rem;
+}
+.PlayStore,.AppStore{
+    width: 100%;
+    height: 100%;
+}
+.apps{
+    width: 150px;
+    height: 45px;
+}
+.theapp{
+    font-size: 1.2rem;
+}
+.lastmerge{
+    display: flex;
+}
+.appsCombine{
+    margin-left: 540px;
+    margin-top: 50px;
+}
+.ps{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.Logos {
+	/* transform: translateX(100px); */
+	transition: 0.4s;
+	overflow-x: hidden;
+}
